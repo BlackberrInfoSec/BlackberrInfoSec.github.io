@@ -9,7 +9,6 @@ large_header: false
 ---
 
 We will write something here soon!
-![](https://unsplash.it/960/350?image=690){: width="960" height="350"}
 
 <!-- ### Types
 
