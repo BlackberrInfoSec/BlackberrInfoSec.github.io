@@ -34,21 +34,18 @@ map:
 	</div>
 
 	<div class="column">
-		<form method="post" action="/contact-success.html">
-			<label for="email_address">Email Address</label>
-			<input id="email_address"type="text" name="email">
+    <form method="POST" action="https://formspree.io/info@blackberrinfosec.com">
+  <label for="name">Name</label>
+  <input id="name" type="text" name="name">
+  <label for="email">Your Email</label>
 
-			<label for="name">Name</label>
-			<input id="name" type="text" name="name">
+  <input type="email" name="email" placeholder="info@blackberrinfosec.com">
 
-			<label for="message">Message</label>
-			<textarea id="message" name="message"></textarea>
+  <label for="message">Message</label>
 
-			<input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
-			<input type="text" name="_gotcha" style="display: none;">
-
-			<input type="submit" value="Send Message">
-		</form>
+  <textarea name="message" placeholder="Enter your message"></textarea>
+  <button type="submit">Submit</button>
+</form>
 	</div>
 </div>
 
