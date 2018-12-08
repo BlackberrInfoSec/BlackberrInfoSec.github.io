@@ -27,6 +27,10 @@ map:
 		<label>Email Address</label>
 		<p class="contact-info"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
 
+    <label>Public Key link, if you need more security.</label>
+    <p class="contact-info"><a href="{{ site.data.company.public_key_web }}">To view click HERE!</a></p>
+    <p class="contact-info"><a href="{{ site.data.company.public_key_download }}">To download, click HERE!</a></p>
+
 		<label>Postal Address</label>
 		<address class="contact-info">{{ site.data.company.postal_address | replace: ',', '<br>' }}</address>
 		<label>Address</label>
@@ -50,7 +54,7 @@ map:
 			<input type="submit" value="Send Message"> -->
       <form method="POST" action="https://formspree.io/info@blackberrinfosec.com">
     <label for="name">Name</label>
-    <input id="name" type="text" name="name">
+    <input id="name" type="text" name="name" placeholder="Your Name">
     <label for="email">Your Email</label>
 
     <input type="email" name="email" placeholder="youremail@email.com">

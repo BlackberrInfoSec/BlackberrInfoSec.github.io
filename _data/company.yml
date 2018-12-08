@@ -3,4 +3,6 @@ description: We are an information security company that specialises in social e
 contact_email_address: info@blackberrinfosec.com
 contact_phone_number: +1.306.797.0427
 address: We are a remote team. We can take on work most places in North America and Europe.
-postal_address:
+postal_address: PO Box 369, Christopher Lake, Sk, S0J0N0, Canada
+public_key_web: /info_key.html
+public_key_download: /info_public.asc
