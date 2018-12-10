@@ -8,14 +8,10 @@
       link: /services/
     - name: Contact
       link: /contact/
-    - name: Advice
-      link: /advice/
+    - name: Info Sec News
+      link: /infosecnews/
 - title: Social
   links:
-    - name: Facebook
-      link:
-      social_icon: Facebook
-      new_window: true
     - name: Twitter
       link:
       social_icon: Twitter

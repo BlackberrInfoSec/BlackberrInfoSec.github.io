@@ -26,7 +26,7 @@ social:
 timezone: Etc/UTC
 
 paginate: 10
-paginate_path: "/advice/:num/"
+paginate_path: "/infosecnews/:num/"
 
 collections:
   - "staff_members"
@@ -37,8 +37,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: 
-      image: 
+      background_image_path:
+      image:
   -
     scope:
       path: ""
