@@ -2,7 +2,7 @@
 title: Android platform is only 2nd to Windows for attacks
 date: 2018-11-05 00:00:00
 categories:
-  - Property
+  - General InfoSec
 author_staff_member: john-doe
 image: "https://unsplash.it/600/450?image=448&a=.png"
 large_header: false
