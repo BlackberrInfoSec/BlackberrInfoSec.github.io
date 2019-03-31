@@ -10,7 +10,7 @@ disqus_shortname:
 
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /just_the_bear.png.png
+logo: /just_the_bear.png
 description: Blackberr's home on the web.
 author:
   name: Blackberr Information Security inc.
@@ -105,7 +105,7 @@ _comments:
   show_in_navigation: Toggles a link in the top banner.
   author_staff_member: The staff member writing this post.
   call_to_action: Type of request shown at the bottom of this page.
-  background_image_path: /just_the_bear.png.png
+  background_image_path: /just_the_bear.png
   testimonials: Update, add or remove testimonials.
   map: Update the map location and display settings.
   latitude: Coordinates for the center marker on the map.
